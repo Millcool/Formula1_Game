@@ -1,5 +1,5 @@
 def fetch_bigtable_rows(big_table, keys, other_silly_variable=None):
-   """Fetches rows from a Bigtable.
+    """Fetches rows from a Bigtable.
 
    Retrieves rows pertaining to the given keys from the Table instance
    represented by big_table.  Silly things may happen if
@@ -27,4 +27,4 @@ def fetch_bigtable_rows(big_table, keys, other_silly_variable=None):
    Raises:
        IOError: An error occurred accessing the bigtable.Table object.
    """
-   pass
+    pass

@@ -8,6 +8,7 @@ class Driver_race_statistics(object):
            likes_spam: A boolean indicating if we like SPAM or not.
            eggs: An integer count of the eggs we have laid.
        """
+
     def __init__(self,
                  points: float = 0,
                  Wins: int = 0,
@@ -30,24 +31,20 @@ class Driver_race_statistics(object):
         print(f"DNF:{self.dnf}")
         print(f"Races Out of points: {self.Out_of_points}")
 
-
     def getRaces(self):
         return self.print_Dri
+
     def getPoints(self):
         return self.points
-
 
     def getWins(self):
         return self.wins
 
-
     def getPodiums(self):
         return self.dnf
 
-
     def getDNF(self):
         return self.dnf
-
 
     def getOut_Of_Points(self):
         return self.Out_of_points
